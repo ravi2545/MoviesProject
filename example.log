@@ -1,0 +1,4 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-111-048
+INFO:__server__:Blueprints added to the application
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2023 17:43:59] "GET / HTTP/1.1" 200 -

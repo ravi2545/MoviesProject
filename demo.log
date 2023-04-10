@@ -1,0 +1,58 @@
+INFO:src.controllers.api:Blueprints added to the application
+INFO:werkzeug: * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:7554
+ * Running on http://192.168.0.235:7554 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:src.controllers.api:Blueprints added to the application
+INFO:src.controllers.api:Blueprints added to the application
+INFO:werkzeug: * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:7554
+ * Running on http://192.168.0.235:7554 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:src.controllers.api:Blueprints added to the application
+INFO:src.controllers.api:Blueprints added to the application
+INFO:werkzeug: * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:7554
+ * Running on http://192.168.0.235:7554 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:src.controllers.api:Blueprints added to the application
+INFO:src.controllers.api:Blueprints added to the application
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:src.controllers.api:Blueprints added to the application
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-111-048
+INFO:src.controllers.api:Blueprints added to the application
+INFO:werkzeug: * Running on http://127.0.0.1:7554 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:src.controllers.api:Blueprints added to the application
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2023 18:38:55] "[33mPOST / HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'd:\\PythonProjects\\Flask\\Normal\\MoviesProject\\src\\hollywood\\horrormovies\\horrorlist.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:src.controllers.api:Blueprints added to the application
+INFO:werkzeug: * Detected change in 'd:\\PythonProjects\\Flask\\Normal\\MoviesProject\\src\\hollywood\\horrormovies\\horrorlist.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:src.controllers.api:Blueprints added to the application
+INFO:werkzeug: * Detected change in 'd:\\PythonProjects\\Flask\\Normal\\MoviesProject\\src\\hollywood\\horrormovies\\horrorlist.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:src.controllers.api:Blueprints added to the application
+INFO:werkzeug: * Detected change in 'd:\\PythonProjects\\Flask\\Normal\\MoviesProject\\src\\hollywood\\horrormovies\\horrorlist.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:src.controllers.api:Blueprints added to the application
+INFO:werkzeug: * Detected change in 'd:\\PythonProjects\\Flask\\Normal\\MoviesProject\\src\\controllers\\api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:src.controllers.api:Blueprints added to the application
+INFO:werkzeug: * Detected change in 'd:\\PythonProjects\\Flask\\Normal\\MoviesProject\\src\\controllers\\api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:src.controllers.api:Blueprints added to the application
+INFO:werkzeug: * Detected change in 'd:\\PythonProjects\\Flask\\Normal\\MoviesProject\\src\\controllers\\api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:src.controllers.api:Blueprints added to the application
+INFO:src.controllers.api:Blueprints added to the application
+INFO:werkzeug: * Running on http://127.0.0.1:7554 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:src.controllers.api:Blueprints added to the application
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2023 18:50:58] "GET /list HTTP/1.1" 200 -
