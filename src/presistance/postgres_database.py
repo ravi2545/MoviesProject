@@ -24,40 +24,14 @@ class PostgresDatabase(DatabaseInterface):
         pass
 
     def get_connection(self):
-
-        if os.environ['POSTGRES_DB_URL'] == 'DEFAULT':
-            return psycopg2.connect(
-                    user=database_config['postgres']['username'],
-                    password=database_config['postgres']['password'],
-                    host=database_config['postgres']["host"],
-                    port=database_config['postgres']['port'],
-                    database=database_config['postgres']['database_name'],
-                )
-        
-        else:
-            return psycopg2.connect(
-                user = "postgres",
-                password = "Ravi@143",
-                host = "localhost",
-                port = 5432,
-                database = "mydatabase"
-
-            )
-            # ## Manually parsing the DB URL, since urlparser is not working
-            # ##DB_INFO = urlparse.urlparse("postgresql://postgres:postgres@localhost:5432/sets_dev_db")
-            # username, password, host_and_port, database = re.match('postgresql://(.*?):(.*?)@(.*?)/(.*)', os.environ['POSTGRES_DB_URL']).groups()
-            # host_and_port_list=host_and_port.split(':')
-            
-            # return psycopg2.connect(
-            #         user=username,
-            #         password=password,
-            #         host=host_and_port_list[0],
-            #         port=host_and_port_list[1],
-            #         database=database,
-            #     )
+        return psycopg2.connect(
+            user = "postgres",
+            password = "Ravi@143",
+            host = "localhost",
+            port = 5432,
+            database = "mydatabase")
 
     def fetch_all(self, table_name):
-
         self.connection = self.get_connection()
 
         ################################################################
