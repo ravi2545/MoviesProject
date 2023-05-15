@@ -6,7 +6,7 @@ class StatisticsService:
 
     def __init__(self):
         self.horror_repo_servives_data = Horror_Service_repo()
-        pass
+
 
     ###############################
     ## Returns all statistics

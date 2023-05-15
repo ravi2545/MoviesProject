@@ -5,6 +5,5 @@ class DatabaseFactory:
         pass
 
     def get_database_connection(self, database_name):
-        if database_name.lower()=='POSTGRES'.lower():
-            return PostgresDatabase()
+        return PostgresDatabase()
                 

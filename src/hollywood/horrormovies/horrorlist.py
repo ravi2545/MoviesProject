@@ -10,8 +10,10 @@ horror_lists = Blueprint('horror', __name__)
 def get_horror_movies():
     try:
         horror_statistics = StatisticsService()
-
-        resp = json.dumps(horror_statistics, indent=4, cls=CustomJSONSerializer)
+        data = horror_statistics.get_all_statistics()
+        print(data)
+        resp = json.dumps(data, indent=1, cls=CustomJSONSerializer)
         return Response(resp, status=200)
     except Exception as e:
-        return Response({'Message': str(e)})
+        return Response(str(e))
+    # return 'list'
