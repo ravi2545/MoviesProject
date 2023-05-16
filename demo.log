@@ -438,3 +438,4 @@ INFO:werkzeug: * Restarting with stat
 INFO:src.controllers.api:Blueprints added to the application
 INFO:werkzeug: * Detected change in 'D:\\PythonProjects\\Flask\\Normal\\MoviesProject\\src\\hollywood\\horrormovies\\repos\\horror_repo.py', reloading
 INFO:werkzeug: * Restarting with stat
+INFO:src.controllers.api:Blueprints added to the application
