@@ -8,13 +8,6 @@ This Doc explains about how to install or setup for python flask to generat best
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Features](#features)
-- [Contributing](#contributing)
-- [Testing](#testing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 - [Contact Information](#contact-information)
 
 ## Installation
@@ -50,9 +43,14 @@ To set up Pylint for a Flask project, you can follow these steps:
    in your Flask code. Pay attention to the error messages, warnings, and code style suggestions provided by Pylint. Address 
    the reported issues by modifying your code accordingly, improving its quality and adherence to best practices.
 
+6. By incorporating Pylint into your Flask development workflow, you can benefit from static code analysis to identify and 
+   address potential issues in your codebase. Regularly running Pylint helps maintain code quality, improves readability, 
+   and enforces coding standards across your Flask project.
+
 ## Contact Information
 
 For any questions or feedback, feel free to reach out to the project maintainer:
 
 - Name: Ravi Prasad
 - Email: raviprasad2545@gmail.com
+

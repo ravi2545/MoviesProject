@@ -1,0 +1,12 @@
+@server=localhost:7554
+
+###
+### Get All Algorithms
+GET http://{{server}}/list
+
+
+###
+# Get JWT Secrate Key
+GET http://{{server}}/jwt/jwtsecret
+
+
